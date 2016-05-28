@@ -1,0 +1,31 @@
+{
+    "name": "yiizh/yii2-adminlte",
+    "description": "The AdminLTE extension for Yii2.",
+    "homepage": "https://github.com/yiizh/yii2-adminlte",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "AdminLTE"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yiizh\\adminlte\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
